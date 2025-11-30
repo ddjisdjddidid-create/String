@@ -2,7 +2,6 @@ services:
   - type: worker
     name: session-bot
     env: python
-    region: frankfurt
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
